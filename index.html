@@ -7,19 +7,20 @@
 	<div class="nav"> <!-- TODO: Make navigation bar -->
 		<ul>
 			<li id="name">Daniel Li</li><!-- TODO: Replace "Daniel Li" with logo -->
-			<li>About</li>
-			<li>Experience</li>
-			<li>Projects</li>
 			<li>Contact</li>
+			<li>Projects</li>
+			<li>Experience</li>
+			<li>About</li>
 		</ul>
 	</div>
 	<br></br>
-	<div class="intro">
+	<div class="intro main_text">
 		<h1 id = "first_intro"> Hello - Daniel here </h1>
 		<h2 id = "second_intro"> I create cool software for people</h2>
-		<p id = "third_intro"> I specialize in building exceptional websites, servers, and ios applications. </p>
+		<p id = "third_intro"> I love and specialize in building exceptional websites, servers, and ios applications. I am looking into learning more about machine learning and image-processing algorithms. </p>
+		<button type="button" id="resume">Resume</button>
 	</div> <!-- TODO: Maybe add link to resume button? -->
-	<div>
+	<div class="about main_text">
 		<h3> A little about me </h3>
 		<p> Hey, I'm Daniel Li, a software developer currently studying computer science at the University of Waterloo and business administration at Wilfred Laurier University. I love creating fun applicaitons and working with cutting-edge technologies; I especially enjoy designing websites, maintaing servers, and creating mobile apps for you phone!.</p>
 		<p> Here are some examples of technologies I love working with: </p>
@@ -28,40 +29,51 @@
 			<li>JavaScript</li>
 			<li>Node.js</li>
 			<li>React</li>
+		</ul>
+		<ul>
 			<li>Swift</li>
 			<li>Xcode</li>
 			<li>Machine Learning</li>
 			<li>Image Recognition</li>
 		</ul>
 	</div>
-	<div>
+	<div class="main_text experience">
 		<h3>My Relevant Experience</h3>
 		<div>
-			<h4>First Robotics</h4>
-				<ul>
-					<li>Durham District Champion - Spring 2019</li>
-					<li>Used C++ and Wpilib to create various modules to successfully let a controller control robots</li>
-					<li>Managed a calculations team of 5 people to solve various dynamic and gemoetric problems regarding the robot</li>
-				</ul>
+			<div class="expand">
+				<h4 id="robotics">First Robotics</h4>
+				<button type="button" id="robotics_button" onclick="expand_robotics()">+</button>
+			</div>
+			<ul id="more_robotics">
+				<li>Durham District Champion - Spring 2019</li>
+				<li>Used C++ and Wpilib to create various modules to successfully let a controller control robots</li>
+				<li>Managed a calculations team of 5 people to solve various dynamic and gemoetric problems regarding the robot</li>
+			</ul>
 		</div>
 		<div>
-			<h4>Mental Health Movement</h4>
-				<ul>
-					<li>Designed a website using HTML, CSS, and JavaScript to show information for events and opportunities</li>
-					<li>Maintained a server using Node.js to streamline the process of updating events and assigning tasks for members</li>
-					<li>Implemented contact form using Node.js, allowing viewers to contact the organizationa om the website</li>
-				</ul>
+			<div class="expand">
+				<h4 id="mhm">Mental Health Movement</h4>
+				<button type="button" id="mhm_button">+</button>
+			</div>
+			<ul id="more_mhm">
+				<li>Designed a website using HTML, CSS, and JavaScript to show information for events and opportunities</li>
+				<li>Maintained a server using Node.js to streamline the process of updating events and assigning tasks for members</li>
+				<li>Implemented contact form using Node.js, allowing viewers to contact the organizationa om the website</li>
+			</ul>
 		</div>
 		<div>
-			<h4>Freelance Programming</h4>
-				<ul>
-					<li>Developed an interface on Xcode using Swift to display data based on user's location</li>
-					<li>Used Amazon's cloud computing platform to create a database, of which an IOS app can store and retrieve data with</li>
-					<li>Created a mutable database and launched a server on Amazon's cloud computing using SQL</li>
-				</ul>
+			<div class="expand">
+				<h4 id="freelance">Freelance Programming</h4>
+				<button type="button" id="freelance_button">+</button>
+			</div>
+			<ul id="more_freelance">
+				<li>Developed an interface on Xcode using Swift to display data based on user's location</li>
+				<li>Used Amazon's cloud computing platform to create a database, of which an IOS app can store and retrieve data with</li>
+				<li>Created a mutable database and launched a server on Amazon's cloud computing using SQL</li>
+			</ul>
 		</div>
 	</div>
-	<div>
+	<div class="main_text">
 		<h3>Some cool projects I've made</h3> <!-- TODO: Add github or devpost links to projects -->
 		<div>
 			<h4>Deepfake Detector</h4>
@@ -102,7 +114,7 @@
 				</ul>
 		</div> <!-- TODO: Add button "see more" that links to github -->
 	</div>
-	<div>
+	<div class="main_text">
 		<h4> I'd love to talk to you! </h4>
 		<p> I'm currently open for freelance opportunities, and pay is negotiable. Please note that although I will be busy during internships, I'd still love to answer emails and talk to you! </p>
 	</div>
@@ -110,5 +122,6 @@
 	<div> <!--TODO: Add link to github -->
 		<p> Developed by Daniel Li. </p>
 	</div>
+	
 </body>
 </html>

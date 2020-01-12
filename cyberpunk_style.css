@@ -4,15 +4,90 @@
 	padding: 10px;
 }
 
+.main_text{
+	margin-left: 200px;
+	margin-right: 250px;
+}
+
 #name{
 	float:left;
 	padding: 5px;
 }
 
 .intro{
-	margin-left: 200px;
+	margin-top: 120px;
 }
 
 #first_intro{
-
+	font-size: 80px;
+	margin-bottom: 0px;
 }
+
+#second_intro{
+	font-size: 70px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+#third_intro{
+	font-size: 30px;
+	margin-right: 200px;
+}
+
+#resume{
+	font-size: 50px;
+}
+
+.about{
+	margin-top: 180px;
+	margin-bottom: 300px;
+}
+
+.about h3{ /*"a little about me*/
+	font-size: 35px;
+}
+
+.about p{
+	margin-right: 400px;
+	font-size: 17px;
+}
+
+.about ul{
+	display:inline;
+	float:left;
+}
+
+.experience{
+	margin-bottom: 300px;
+}
+
+.expand{
+	margin-bottom: 25px;
+}
+
+.expand h4{
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.expand button{
+	display:inline;
+	margin-top: 10px;
+}
+
+#more_robotics{
+	display:none;
+}
+
+#more_mhm{
+	display:none;
+}
+
+#more_freelance{
+	display:none;
+}
+
+
+
