@@ -61,8 +61,12 @@
 	margin-bottom: 300px;
 }
 
-.expand{
+.expMargin{
 	margin-bottom: 25px;
+}
+
+.expand{
+	margin-bottom: 5px;
 }
 
 .expand h4{
