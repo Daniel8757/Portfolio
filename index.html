@@ -22,7 +22,7 @@
 	</div> <!-- TODO: Maybe add link to resume button? -->
 	<div class="about main_text">
 		<h3> A little about me </h3>
-		<p> Hey, I'm Daniel Li, a software developer currently studying computer science at the University of Waterloo and business administration at Wilfred Laurier University. I love creating fun applicaitons and working with cutting-edge technologies; I especially enjoy designing websites, maintaing servers, and creating mobile apps for you phone!.</p>
+		<p> Hey, I'm Daniel Li, a software developer currently studying computer science at the University of Waterloo and business administration at Wilfred Laurier University. I love creating fun applicaitons and working with cutting-edge technologies; I especially enjoy designing websites, maintaing servers, and creating mobile apps for your phone!</p>
 		<p> Here are some examples of technologies I love working with: </p>
 		<ul>
 			<li>HTML & CSS</li>
@@ -73,52 +73,59 @@
 			</ul>
 		</div>
 	</div>
-	<div class="main_text">
+	<div class="main_text my_projects">
 		<h3>Some cool projects I've made</h3> <!-- TODO: Add github or devpost links to projects -->
 		<div>
-			<h4>Deepfake Detector</h4>
+			<div class = "nameAndPrize">
+				<h4>Deepfake Detector</h4>
+				<p>First Place at PennAppsXX</p>
+			</div>
+			<br></br>
+				<p>An application that detects deepfakes while users are browsing the internet. Uses a chrome extension to send video data to a server using Node.js, which is then processed in Python and uses machine learning to detect if the video is authentic.</p> <!-- TODO: Link Medium Article -->
 				<ul>
-					<li>First Place at PennApps</li> <!-- TODO: Link Medium Article -->
-					<li>Used Python to contribute creating an algorithm that uses machine learning to distinguish deepfakes and real videos of celebrities</li>
-					<li>Used HTML, CSS, Javascript, and Node.js to create a chrome extension and local server to transfer data between chrome extension and deepfake detector</li>
+					<li>Python</li>
+					<li>HTML&CSS</li>
+					<li>JavaScript</li>
+					<li>Node.js</li>
+					<li>Machine Learning</li>
 				</ul>
 		</div>
 		<div>
-			<h4>Face-Recognition Attendance Tracker</h4>
+			<div class = "nameAndPrize">
+				<h4>Face-Recognition Attendance Tracker</h4>
+				<p>Third place at UOttaHacks</p> 
+			</div>
+			<br></br>
+				<p>Created a device that uses facial recognition to track people that enter or exit a room. Uses facial recognition to differentiate faces, storing new faces into a databse and determines everyone entering, exiting, or in a room.</p>
 				<ul>
-					<li>Third place at UOttaHacks</li> 
-					<li>Created a device that uses facial recognition to track people that enter or exit a room. </li>
-					<li>Used Flask, HTML, and CSS to create a server that transfered and displayed data between Raspberry Pi Camera and face-recognition application</li>
+					<li>HTML&CSS</li>
+					<li>JavaScript</li>
+					<li>Flask</li>
+					<li>Python</li>
 				</ul>
 		</div>
 		<div>
-			<h4>AR Finger-Movement Controller</h4>
+			<div class = "nameAndPrize">
+				<h4>AR Finger-Movement Controller</h4>
+			</div>
+			<br></br>
+			<p> Created a IPad app where the user can move their fingers to manupulate an AR enviroment. Finger movements are tracked and sent to a server than interprets them. The data is then sent to the app that changes the AR world based on their hand geastures. </p>
 				<ul>
-					<li>Used socket to transfer data between camera and server to interpret hand geastures with a Python finger-tracker API.</li>
-					<li>Created python module that interprets finger movements and outputs likely geasture the user made
-					<li>Utilized XCode's AR kit to make changes to AR enviroment based on user's hand geastures </li>
+					<li>Python</li>
+					<li>Swift</li>
+					<li>XCode</li>
+					<li>Open CV </li>
 				</ul>
 		</div>
 		<div>
-			<h4>KidsAbility Emergency Aid</h4>
-				<ul>
-					<li>Created an android application that helps KidsAbility staff keep track of everyone and alert other staff if they are in danger</li>
-					<li>Used android's map api to implement UI that keeps track of all users, their schedule, and where they should be </li>
-				</ul>
-		</div>
+			<button id="all_projects">View All Projects</button>
 		<div>
-			<h4>Learn Chemistry Game</h4>
-				<ul>
-					<li>Used Unity to create an game that helps high schoolers study chemistry in a fun goal-driven enviroment </li>
-					<li>Used C# to code and animate various Unity modules required for the game.</li>
-				</ul>
-		</div> <!-- TODO: Add button "see more" that links to github -->
 	</div>
-	<div class="main_text">
+	<br></br>
+	<div class="main_text contact">
 		<h4> I'd love to talk to you! </h4>
 		<p> I'm currently open for freelance opportunities, and pay is negotiable. Please note that although I will be busy during internships, I'd still love to answer emails and talk to you! </p>
 	</div>
-	
 	<div> <!--TODO: Add link to github -->
 		<p> Developed by Daniel Li. </p>
 	</div>
