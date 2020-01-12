@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="cyberpunk_style.css">
+</head> 
 <body>  <!-- TODO: Style Daniel Li-->
-	<div> <!-- TODO: Make navigation bar -->
+	<div class="nav"> <!-- TODO: Make navigation bar -->
 		<ul>
+			<li id="name">Daniel Li</li><!-- TODO: Replace "Daniel Li" with logo -->
 			<li>About</li>
 			<li>Experience</li>
 			<li>Projects</li>
 			<li>Contact</li>
 		</ul>
 	</div>
-	<div>
-		<h1> Hello - Daniel here </h1>
-		<h2> I create cool software for people</h2>
-		<p> I'm an software developer who specializes in building exceptional websites, servers, and ios applications. </p>
+	<br></br>
+	<div class="intro">
+		<h1 id = "first_intro"> Hello - Daniel here </h1>
+		<h2 id = "second_intro"> I create cool software for people</h2>
+		<p id = "third_intro"> I specialize in building exceptional websites, servers, and ios applications. </p>
 	</div> <!-- TODO: Maybe add link to resume button? -->
 	<div>
 		<h3> A little about me </h3>
-		<p> Hey, I'm Daniel Li, a software developer currently studying computer science at the University of Waterloo and business administration at Wilfred Laurier University. I love creating fun applicaitons and working with cutting-edge technologie; I especially enjoy designing websites, maintaing servers, and creating mobile apps for you phone!.</p>
+		<p> Hey, I'm Daniel Li, a software developer currently studying computer science at the University of Waterloo and business administration at Wilfred Laurier University. I love creating fun applicaitons and working with cutting-edge technologies; I especially enjoy designing websites, maintaing servers, and creating mobile apps for you phone!.</p>
 		<p> Here are some examples of technologies I love working with: </p>
 		<ul>
 			<li>HTML & CSS</li>
@@ -64,7 +69,6 @@
 					<li>First Place at PennApps</li> <!-- TODO: Link Medium Article -->
 					<li>Used Python to contribute creating an algorithm that uses machine learning to distinguish deepfakes and real videos of celebrities</li>
 					<li>Used HTML, CSS, Javascript, and Node.js to create a chrome extension and local server to transfer data between chrome extension and deepfake detector</li>
-					<li>Ate a lot of chicken salads</li>
 				</ul>
 		</div>
 		<div>
@@ -75,7 +79,7 @@
 					<li>Used Flask, HTML, and CSS to create a server that transfered and displayed data between Raspberry Pi Camera and face-recognition application</li>
 				</ul>
 		</div>
-		<div>s
+		<div>
 			<h4>AR Finger-Movement Controller</h4>
 				<ul>
 					<li>Used socket to transfer data between camera and server to interpret hand geastures with a Python finger-tracker API.</li>

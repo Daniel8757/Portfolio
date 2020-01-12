@@ -1,0 +1,18 @@
+.nav li{
+	display: inline;
+	float: right;
+	padding: 10px;
+}
+
+#name{
+	float:left;
+	padding: 5px;
+}
+
+.intro{
+	margin-left: 200px;
+}
+
+#first_intro{
+
+}
