@@ -102,6 +102,8 @@
 }
 
 
+
+
 .nameAndPrize h4{
 	float: left;
 	margin-top: 10px;
@@ -113,8 +115,24 @@
 	margin-top: 10px;
 }
 
+.nameAndPrize h4{
+	clear:both;
+}
+
+.myProject li{
+	display:inline;
+	float: left;
+	padding: 10px; 
+}
+
+.clearThis{
+	clear:both;
+}
+
 #all_projects{
 	font-size: 27px;
+	clear:both;
+	margin-top: 50px;
 }
 
 .contact h4{
@@ -122,6 +140,16 @@
 	margin-bottom: 25px;
 }
 
+.contact button{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 70px;
+}
 
+.footer{
+	text-align: center;
+	font: 10px;
+}
 
 

@@ -75,13 +75,13 @@
 	</div>
 	<div class="main_text my_projects">
 		<h3>Some cool projects I've made</h3> <!-- TODO: Add github or devpost links to projects -->
-		<div>
+		<div class="myProject">
 			<div class = "nameAndPrize">
 				<h4>Deepfake Detector</h4>
 				<p>First Place at PennAppsXX</p>
 			</div>
 			<br></br>
-				<p>An application that detects deepfakes while users are browsing the internet. Uses a chrome extension to send video data to a server using Node.js, which is then processed in Python and uses machine learning to detect if the video is authentic.</p> <!-- TODO: Link Medium Article -->
+				<p class="clearThis">An application that detects deepfakes while users are browsing the internet. Uses a chrome extension to send video data to a server using Node.js, which is then processed in Python and uses machine learning to detect if the video is authentic.</p> <!-- TODO: Link Medium Article -->
 				<ul>
 					<li>Python</li>
 					<li>HTML&CSS</li>
@@ -90,13 +90,13 @@
 					<li>Machine Learning</li>
 				</ul>
 		</div>
-		<div>
+		<div class="myProject">
 			<div class = "nameAndPrize">
 				<h4>Face-Recognition Attendance Tracker</h4>
 				<p>Third place at UOttaHacks</p> 
 			</div>
 			<br></br>
-				<p>Created a device that uses facial recognition to track people that enter or exit a room. Uses facial recognition to differentiate faces, storing new faces into a databse and determines everyone entering, exiting, or in a room.</p>
+				<p class="clearThis">Created a device that uses facial recognition to track people that enter or exit a room. Uses facial recognition to differentiate faces, storing new faces into a databse and determines everyone entering, exiting, or in a room.</p>
 				<ul>
 					<li>HTML&CSS</li>
 					<li>JavaScript</li>
@@ -104,12 +104,12 @@
 					<li>Python</li>
 				</ul>
 		</div>
-		<div>
+		<div class="myProject">
 			<div class = "nameAndPrize">
 				<h4>AR Finger-Movement Controller</h4>
 			</div>
 			<br></br>
-			<p> Created a IPad app where the user can move their fingers to manupulate an AR enviroment. Finger movements are tracked and sent to a server than interprets them. The data is then sent to the app that changes the AR world based on their hand geastures. </p>
+			<p class="clearThis"> Created a IPad app where the user can move their fingers to manupulate an AR enviroment. Finger movements are tracked and sent to a server than interprets them. The data is then sent to the app that changes the AR world based on their hand geastures. </p>
 				<ul>
 					<li>Python</li>
 					<li>Swift</li>
@@ -118,16 +118,19 @@
 				</ul>
 		</div>
 		<div>
-			<button id="all_projects">View All Projects</button>
+			<button  id="all_projects">View All Projects</button>
 		<div>
 	</div>
 	<br></br>
 	<div class="main_text contact">
 		<h4> I'd love to talk to you! </h4>
 		<p> I'm currently open for freelance opportunities, and pay is negotiable. Please note that although I will be busy during internships, I'd still love to answer emails and talk to you! </p>
+		<br></br>
+		<button id="my_email">Email</button> <!--TODO: How to make button open their email thing? -->
 	</div>
+	<br></br>
 	<div> <!--TODO: Add link to github -->
-		<p> Developed by Daniel Li. </p>
+		<p class="footer"> Developed by Daniel Li. </p>
 	</div>
 	
 	<script>
