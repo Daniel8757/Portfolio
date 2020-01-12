@@ -42,7 +42,7 @@
 		<div>
 			<div class="expand">
 				<h4 id="robotics">First Robotics</h4>
-				<button type="button" id="robotics_button" onclick="expand_robotics()">+</button>
+				<button onclick="expandFuncRobotics()" id="robotics_button">+</button>
 			</div>
 			<ul id="more_robotics">
 				<li>Durham District Champion - Spring 2019</li>
@@ -53,7 +53,7 @@
 		<div>
 			<div class="expand">
 				<h4 id="mhm">Mental Health Movement</h4>
-				<button type="button" id="mhm_button">+</button>
+				<button onclick="expandFuncMhm()" id="mhm_button">+</button>
 			</div>
 			<ul id="more_mhm">
 				<li>Designed a website using HTML, CSS, and JavaScript to show information for events and opportunities</li>
@@ -64,7 +64,7 @@
 		<div>
 			<div class="expand">
 				<h4 id="freelance">Freelance Programming</h4>
-				<button type="button" id="freelance_button">+</button>
+				<button onclick="expandFuncFreelance()" id="freelance_button">+</button>
 			</div>
 			<ul id="more_freelance">
 				<li>Developed an interface on Xcode using Swift to display data based on user's location</li>
@@ -122,6 +122,45 @@
 	<div> <!--TODO: Add link to github -->
 		<p> Developed by Daniel Li. </p>
 	</div>
+	
+	<script>
+		function expandFuncRobotics() {
+ 		 var btnText = document.getElementById("robotics_button");
+ 		 var moreText = document.getElementById("more_robotics");
+
+		  if (btnText.innerHTML == "+") {
+ 		   btnText.innerHTML = "-"; 
+ 		   moreText.style.display =  "inline";
+ 		 } else {
+ 		   btnText.innerHTML = "+";
+ 		   moreText.style.display =  "none";
+ 		 }
+		}
+		function expandFuncMhm() {
+ 		 var btnText = document.getElementById("mhm_button");
+ 		 var moreText = document.getElementById("more_mhm");
+
+		  if (btnText.innerHTML == "+") {
+ 		   btnText.innerHTML = "-"; 
+ 		   moreText.style.display =  "inline";
+ 		 } else {
+ 		   btnText.innerHTML = "+";
+ 		   moreText.style.display =  "none";
+ 		 }
+		}
+		function expandFuncFreelance() {
+ 		 var btnText = document.getElementById("freelance_button");
+ 		 var moreText = document.getElementById("more_freelance");
+
+		  if (btnText.innerHTML == "+") {
+ 		   btnText.innerHTML = "-"; 
+ 		   moreText.style.display =  "inline";
+ 		 } else {
+ 		   btnText.innerHTML = "+";
+ 		   moreText.style.display =  "none";
+ 		 }
+		}
+</script>
 	
 </body>
 </html>
