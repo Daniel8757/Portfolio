@@ -1,1 +1,53 @@
 /*MAIN*/
+
+#backButton{
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.title{
+	margin-left: 200px;
+	margin-right: 250px;
+}
+
+.title h1{
+	font-size: 60px;
+	margin-bottom: 0px;
+}
+
+.title p{
+	font-size: 25px;
+}
+
+.projects{
+	margin-left: 200px;
+}
+
+.p1{
+	margin-top:50px;
+}
+
+.p1 h6{
+	clear:both;
+	float: left;
+}
+
+.p1 h5{
+	float: left;
+	margin-left: 20px;
+}
+
+.p1 p{
+	width: 350px;
+	float:left;
+	margin-left: 20px;
+}
+
+.p1 li{
+	float: left;
+	display: block;
+	padding-left: 30px;
+	margin-top: 20px;
+}
