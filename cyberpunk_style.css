@@ -1,8 +1,26 @@
+/*STRUCTURE*/
 .nav li{
-	display: inline;
 	float: right;
-	padding: 10px;
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	padding: 14px 16px;
 }
+
+.nav li a{
+	text-decoration:none;
+	padding: 14px 16px;
+}
+
+
+
+.nav li:hover{
+	background-color: #C8FEF5;
+}
+
 
 .main_text{
 	margin-left: 200px;
@@ -12,6 +30,7 @@
 #name{
 	float:left;
 	padding: 5px;
+	border: none;
 }
 
 .intro{
@@ -30,17 +49,39 @@
 }
 
 #third_intro{
-	font-size: 30px;
-	margin-right: 200px;
+	font-size: 25px;
+	margin-right: 300px;
 }
 
 #resume{
 	font-size: 50px;
+	margin-top: 40px;
 }
+
+#aboutAnchor{ /*So link-ref goes a bit above*/
+	margin-top: -150px;
+	padding-top: 150px;
+}
+
+#experienceAnchor{
+	margin-top: -150px;
+	padding-top: 150px;
+}
+
+#projectAnchor{
+	margin-top: -80px;
+	padding-top: 80px;
+}
+
+#contactAnchor{
+	margin-top: -80px;
+	padding-top: 190px;
+}
+
 
 .about{
 	margin-top: 180px;
-	margin-bottom: 300px;
+	margin-bottom: 400px;
 }
 
 .about h3{ /*"a little about me*/
@@ -58,15 +99,15 @@
 }
 
 .experience{
-	margin-bottom: 300px;
+	margin-bottom: 320px;
 }
 
 .expMargin{
-	margin-bottom: 25px;
+	margin-bottom: 55px;
 }
 
 .expand{
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .expand h4{
@@ -74,6 +115,7 @@
 	float: left;
 	margin-right: 10px;
 	margin-top: 10px;
+	font-size: 18px;
 }
 
 .expand button{
@@ -100,9 +142,6 @@
 .my_projects h3{
 	font-size: 35px;
 }
-
-
-
 
 .nameAndPrize h4{
 	float: left;
@@ -133,6 +172,7 @@
 	font-size: 27px;
 	clear:both;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .contact h4{
@@ -145,6 +185,7 @@
 	margin-left: 20%;
 	margin-right: 20%;
 	font-size: 70px;
+	margin-bottom: 270px;
 }
 
 .footer{
@@ -152,4 +193,6 @@
 	font: 10px;
 }
 
+
+/*SPECIFIC MODULES */
 
