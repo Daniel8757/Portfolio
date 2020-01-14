@@ -70,8 +70,8 @@
 	height: 5px;
 	background-color: #7d12ff;
 	border: none;
-	margin-top: -22px;
-	margin-bottom: 30px;
+	margin-top: -32px;
+	margin-bottom: 35px;
 }
 
 #third_intro{
@@ -127,19 +127,14 @@
 	margin-bottom: 320px;
 }
 
-.expMargin{
-	margin-bottom: 55px;
-}
 
-.expand{
-	margin-bottom: 10px;
-}
 
 .expand h4{
 	display: inline;
 	float: left;
 	margin-right: 10px;
-	margin-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	font-size: 18px;
 }
 
@@ -333,15 +328,37 @@ body{
 }
 
 .expand h4{
-	font-size: 35px;
+	font-size: 30px;
 }
 
 .expand{
 	padding: 10px;
+	border: 1px solid white;
 }
 
+#second_intro{
+	color: #f4ebf9;
+}
 
+#third_intro{
+	color: #ead8f3;
+}
 
+.expand h5{
+	float: left;
+}
+
+#robotics_button{
+	margin-left: 340px;
+}
+
+#mhm_button{
+	margin-left: 134px;
+}
+
+#freelance_button{
+	margin-left: 506px;
+}
 
 
 
