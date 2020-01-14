@@ -1,25 +1,31 @@
 /*STRUCTURE*/
-.nav li{
-	float: right;
-	display: block;
-	color: black;
-	text-align: center;
-	text-decoration: none;
-	border-left: 1px solid;
-	border-bottom: 1px solid;
-	padding: 14px 16px;
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 24px;
 }
 
-.nav li a{
-	text-decoration:none;
-	padding: 14px 16px;
+.nav li {
+  float: right;
 }
 
-
-
-.nav li:hover{
-	background-color: #C8FEF5;
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+.nav li a:hover {
+  background-color: #100349;
+}
+
+.nav a:visited { text-decoration: none; color:#ffffff;}
+.nav a:hover { text-decoration: none; color:#d9d9d9; background-color: #150462;}
+.nav a:focus { text-decoration: none; color:#ffffff;}
 
 
 .main_text{
@@ -29,13 +35,10 @@
 
 #name{
 	float:left;
-	padding: 5px;
+	padding: 20px;
 	border: none;
 }
 
-#name:hover{
-	background-color: white;
-}
 
 .intro{
 	margin-top: 120px;
@@ -47,20 +50,34 @@
 }
 
 #second_intro{
-	font-size: 70px;
+	font-size: 60px;
 	margin-top: 0px;
-	margin-bottom: 40px;
+	margin-bottom: 5px;
+}
+
+#dash{
+	width: 150px;
+	height: 5px;
+	background-color: #7d12ff;
+	border: none;
+	margin-top: 20px;
+}
+
+#dash2{
+	width: 150px;
+	height: 5px;
+	background-color: #7d12ff;
+	border: none;
+	margin-top: -22px;
+	margin-bottom: 30px;
 }
 
 #third_intro{
+	margin-top: 20px;
 	font-size: 25px;
 	margin-right: 300px;
 }
 
-#resume{
-	font-size: 50px;
-	margin-top: 40px;
-}
 
 #aboutAnchor{ /*So link-ref goes a bit above*/
 	margin-top: -150px;
@@ -193,10 +210,51 @@
 }
 
 .footer{
-	text-align: center;
+	text-align: center; 
 	font: 10px;
 }
 
 
-/*SPECIFIC MODULES */
+/*SPECIFIC MODULE FOR CYBERPUNK STYLE*/
+@font-face {
+  font-family:"my-font";
+  src: url("CIND.ttf") format("truetype");
+}
+
+body{
+	background-color: #0b0231;
+	color: #fbf8fd;
+	font-family: "Lucida Grande";
+}
+
+#resume{
+   	 background-color: #0b0231;
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #fbf8fd;
+ 	 color: #fbf8fd;
+ 	 padding: 15px 32px;
+ 	 text-align: center;
+ 	 text-decoration: none;
+ 	 display: inline-block;
+ 	 font-size: 32px;
+ 	 margin: 15px 3px;
+ 	 cursor: pointer;
+ 	 -webkit-transition-duration: 0.4s; 
+ 	 transition-duration: 0.4s;
+}
+
+#resume:hover{
+ 	 box-shadow:  10px 10px #150349;
+ 	 color: white;
+ 	 -webkit-text-stroke-width: 1.5px;
+ 	 -webkit-text-stroke-color: #d081fd;
+ 	 border-color: #edcefd;
+}
+
+.neonStroke{
+	 -webkit-text-stroke-width: 2px;
+ 	 -webkit-text-stroke-color: #d081fd;
+}
+
+ /* TODO: Make navigation bar fixed to top */
 
