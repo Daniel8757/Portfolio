@@ -132,7 +132,6 @@
 .expand h4{
 	display: inline;
 	float: left;
-	margin-right: 10px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 18px;
@@ -333,6 +332,8 @@ body{
 
 .expand{
 	padding: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
 	border: 1px solid white;
 }
 
@@ -344,21 +345,71 @@ body{
 	color: #ead8f3;
 }
 
-.expand h5{
-	float: left;
-}
 
 #robotics_button{
-	margin-left: 340px;
+	margin-left: 290px;
+	font-size: 50px;
+	width: 147px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	margin-right: 0px;
+	background-color: #ead8f3;
+	border-color: #d99bfd;
 }
+
+#robotics_button:hover{
+	-webkit-text-stroke-width: 0.5px;
+ 	 -webkit-text-stroke-color: #d081fd;
+ 	 background-color: #d5b1e7;
+ 	 border-color: #bd50fb;
+ 	 border-width: 2.5px;
+ 	 font-size: 49.3px;
+ }
+
 
 #mhm_button{
-	margin-left: 134px;
+	margin-left: 84px;
+	font-size: 50px;
+	width: 147px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	margin-right: 0px;
+	background-color: #ead8f3;
+	border-color: #d99bfd;
 }
 
+#mhm_button:hover{
+	-webkit-text-stroke-width: 0.5px;
+ 	 -webkit-text-stroke-color: #d081fd;
+ 	 background-color: #d5b1e7;
+ 	 border-color: #e4b6fc;
+ 	  border-color: #bd50fb;
+ 	 border-width: 2.5px;
+ 	 font-size: 49.3px;
+ }
+
 #freelance_button{
-	margin-left: 506px;
+	margin-left: 456px;
+	font-size: 50px;
+	width: 148px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	margin-right: 0px;
+	background-color: #ead8f3;
+	border-color: #d99bfd;
 }
+
+#freelance_button:hover{
+	-webkit-text-stroke-width: 0.5px;
+ 	  -webkit-text-stroke-color: #d081fd;
+ 	 background-color: #d5b1e7;
+ 	 border-color: #e4b6fc;
+ 	  border-color: #bd50fb;
+ 	 border-width: 2.5px;
+ 	 font-size: 49.3px;
+ }
+
+
 
 
 
