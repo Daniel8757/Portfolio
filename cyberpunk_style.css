@@ -102,7 +102,7 @@
 
 .about{
 	margin-top: 180px;
-	margin-bottom: 400px;
+	margin-bottom: 800px;
 }
 
 .about h3{ /*"a little about me*/
@@ -110,8 +110,9 @@
 }
 
 .about p{
-	margin-right: 400px;
+	width: 590px;
 	font-size: 17px;
+	margin-right: 55px;
 }
 
 .about ul{
@@ -252,9 +253,51 @@ body{
 }
 
 .neonStroke{
-	 -webkit-text-stroke-width: 2px;
+	 -webkit-text-stroke-width: 2.3px;
  	 -webkit-text-stroke-color: #d081fd;
 }
+
+.about p{
+	line-height: 26px;
+}
+
+#a123{
+	margin-bottom: 40px;
+}
+
+.lightStroke{
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #d081fd;
+}
+
+.about ul{
+	margin-left: -5%;
+	margin-top: 5px;
+	list-style-type: none;
+	margin-right: 35px;
+}
+
+
+.about li{
+	padding: 3px;
+}
+
+.about_text{
+	float:left;
+	margin-left: 200px;
+}
+
+#my_image{
+	margin-top: 10px;
+	width: 400px;
+}
+
+.stats{
+	 -webkit-text-stroke-width: 0.63px;
+ 	 -webkit-text-stroke-color: #d081fd;
+{
+
+
 
  /* TODO: Make navigation bar fixed to top */
 
