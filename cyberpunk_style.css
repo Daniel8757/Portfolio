@@ -21,6 +21,8 @@
 
 .nav li a:hover {
   background-color: #100349;
+  	 -webkit-text-stroke-width: 0.8px;
+ 	 -webkit-text-stroke-color: #d081fd;
 }
 
 .nav a:visited { text-decoration: none; color:#ffffff;}
@@ -290,12 +292,21 @@ body{
 #my_image{
 	margin-top: 10px;
 	width: 400px;
+	box-shadow:  30px 30px #150349;
 }
 
 .stats{
 	 -webkit-text-stroke-width: 0.63px;
  	 -webkit-text-stroke-color: #d081fd;
 {
+
+#y1{
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #d081fd;
+}
+\
+
+
 
 
 
