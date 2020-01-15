@@ -485,7 +485,7 @@ body{
  }
  
  .projectModule li{
- 	 		-webkit-text-stroke-width: 0.8px;
+ 	 		-webkit-text-stroke-width: 0.6px;
  	  -webkit-text-stroke-color: #d081fd;
  }
  
@@ -552,6 +552,11 @@ body{
 
 .contact{
 	margin-bottom: 300px;
+}
+
+.footer{
+	 	 -webkit-text-stroke-width: 0.8px;
+ 	 -webkit-text-stroke-color: #d081fd;
 }
 
 
