@@ -17,7 +17,7 @@
 	<div class="intro main_text">
 		<h1 id = "first_intro"> Hello - <span class="neonStroke">Daniel</span> here</h1>
 		<h2 id = "second_intro"> I create software for people</h2>
-		<hr align = "left" id = "dash">
+		<hr align = "left" id = "dash1">
 		<p id = "third_intro"> I specialize in building exceptional websites, servers, and iOS applications. I am looking into learning more about artificial intelligence and image-processing algorithms. </p>
 		<button id="resume" onclick="window.open('Daniel-Li-Resume.pdf','_blank')">Resume</button>
 	</div>
@@ -45,19 +45,22 @@
 		</div>
 	</div>
 	<div class="main_text experience">
-		<h3 id="experienceAnchor">My Relevant Experience</h3>
-		<div class="expMargin">
-			<div class="expand">
+		<h3 id="experienceAnchor">My Experience</h3>
+		<hr align = "left" id = "dash3">
+		<div id = "vv1" class="expMargin">
+			<div id = "v1" class="expand">
 				<h4 id="robotics">First Robotics - Software Engineer</h4>
 				<button onclick="expandFuncRobotics()" id="robotics_button">+</button>
 			</div>
-			<ul id="more_robotics">
-				<li><span id="y1">Durham District Champion</span> - March 2019</li>
-				<li>Used C++ and Wpilib to create various modules to successfully let a controller control robots</li>
-				<li>Managed a calculations team of 5 people to solve various dynamic and gemoetric problems regarding the robot</li>
-			</ul>
+			<div id="vvv1">
+				<ul id="more_robotics">
+					<li><span id="y1">Durham District Champion</span> - March 2019</li>
+					<li>Used C++ and Wpilib to create various modules to successfully let a controller control robots</li>
+					<li>Managed a calculations team of 5 people to solve various dynamic and gemoetric problems regarding the robot</li>
+				</ul>
+			</div>
 		</div>
-		<div class="expMargin">
+		<div id = "vv2" class="expMargin">
 			<div class="expand">
 				<h4 id="mhm">Mental Health Movement - Front End Developer</h4>
 				<button onclick="expandFuncMhm()" id="mhm_button">+</button>
@@ -68,8 +71,8 @@
 				<li>Implemented contact form using Node.js, allowing viewers to contact the organizationa om the website</li>
 			</ul>
 		</div>
-		<div class="expMargin">
-			<div class="expand">
+		<div id = "vv3" class="expMargin">
+			<div id = "v3" class="expand">
 				<h4 id="freelance">Freelance Programming</h4>
 				<button onclick="expandFuncFreelance()" id="freelance_button">+</button>
 			</div>
@@ -83,47 +86,59 @@
 	<div class="main_text my_projects">
 		<h3 id="projectAnchor">Some cool projects I've made</h3> <!-- TODO: Add github or devpost links to projects -->
 		<div class="myProject">
-			<div class = "nameAndPrize">
-				<h4>Deepfake Detector</h4>
-				<p>First Place at PennAppsXX</p>
+			<div class = "projectModule">
+				<div class = "nameAndPrize">
+					<h4>Deepfake Detector</h4>
+					<p><span class="coolDash">-</span>First Place at PennAppsXX</p>
+				</div>
+				<br></br>
+					<p class="clearThis">An application that detects deepfakes while users are browsing the internet. Uses a chrome extension to send video data to a server using Node.js, which is then processed in Python and uses machine learning to detect if the video is authentic.</p> <!-- TODO: Link Medium Article -->
+					<img src="" alt="PennApps Picture">
+					<button>text</button>
+					<ul id="pi1">
+						<li>Python</li>
+						<li>HTML&CSS</li>
+						<li>JavaScript</li>
+						<li>Node.js</li>
+						<li>Machine Learning</li>
+					</ul>
+				</div>
 			</div>
-			<br></br>
-				<p class="clearThis">An application that detects deepfakes while users are browsing the internet. Uses a chrome extension to send video data to a server using Node.js, which is then processed in Python and uses machine learning to detect if the video is authentic.</p> <!-- TODO: Link Medium Article -->
-				<ul>
-					<li>Python</li>
-					<li>HTML&CSS</li>
-					<li>JavaScript</li>
-					<li>Node.js</li>
-					<li>Machine Learning</li>
-				</ul>
-		</div>
 		<div class="myProject">
-			<div class = "nameAndPrize">
-				<h4>Face-Recognition Attendance Tracker</h4>
-				<p>Third place at UOttaHacks</p> 
+			<div class = "projectModule">
+				<div class = "nameAndPrize">
+					<h4>Face-Recognition Attendance Tracker</h4>
+					<p><span class="coolDash">-</span>Third Place at UOttaHacks</p> 
+				</div>
+				<br></br>
+					<p class="clearThis">Created a device that uses facial recognition to track people that enter or exit a room. Uses facial recognition to differentiate faces, storing new faces into a databse and determines everyone entering, exiting, or in a room.</p>
+					<img  src="" alt="UOtta Picture">
+					<button>text</button>
+					<ul id="pi2">
+						<li>HTML&CSS</li>
+						<li>JavaScript</li>
+						<li>Flask</li>
+						<li>Python</li>
+					</ul>
+				</div>
 			</div>
-			<br></br>
-				<p class="clearThis">Created a device that uses facial recognition to track people that enter or exit a room. Uses facial recognition to differentiate faces, storing new faces into a databse and determines everyone entering, exiting, or in a room.</p>
-				<ul>
-					<li>HTML&CSS</li>
-					<li>JavaScript</li>
-					<li>Flask</li>
-					<li>Python</li>
-				</ul>
-		</div>
 		<div class="myProject">
-			<div class = "nameAndPrize">
-				<h4>AR Finger-Movement Controller</h4>
+			<div class = "projectModule">
+				<div class = "nameAndPrize">
+					<h4>AR Finger-Movement Controller</h4>
+				</div>
+				<br></br>
+				<p class="clearThis"> Created a IPad app where the user can move their fingers to manupulate an AR enviroment. Finger movements are tracked and sent to a server than interprets them. The data is then sent to the app that changes the AR world based on their hand geastures. </p>
+				<img src="" alt="HTN Picture">
+				<button>text</button>
+					<ul id="pi3" >
+						<li>Swift</li>
+						<li>XCode</li>
+						<li>Python</li>
+						<li>OpenCV </li>
+					</ul>
+				</div>
 			</div>
-			<br></br>
-			<p class="clearThis"> Created a IPad app where the user can move their fingers to manupulate an AR enviroment. Finger movements are tracked and sent to a server than interprets them. The data is then sent to the app that changes the AR world based on their hand geastures. </p>
-				<ul>
-					<li>Swift</li>
-					<li>XCode</li>
-					<li>Python</li>
-					<li>OpenCV </li>
-				</ul>
-		</div>
 		<div>
 			<button  id="all_projects" onclick="location.href='project_portfolio.html';">View All Projects</button>
 		<div>
@@ -137,45 +152,54 @@
 	</div>
 	<br></br>
 	<div> <!--TODO: Add link to github -->
-		<p class="footer"> Developed by Daniel Li. </p>
+		<p class="footer"> Designed & Developed by Daniel Li. </p>
 	</div>
 	
 	<script>
 		function expandFuncRobotics() {
  		 var btnText = document.getElementById("robotics_button");
  		 var moreText = document.getElementById("more_robotics");
+ 		 var myBorder = document.getElementById("vv1");
 
 		  if (btnText.innerHTML == "+") {
  		   btnText.innerHTML = "-"; 
  		   moreText.style.display =  "inline";
+ 		   myBorder.style.borderColor = "#d081fd";
  		 } else {
  		   btnText.innerHTML = "+";
  		   moreText.style.display =  "none";
+ 		   myBorder.style.borderColor = "#fbf8fd";
  		 }
 		}
 
 		function expandFuncMhm() {
  		 var btnText = document.getElementById("mhm_button");
  		 var moreText = document.getElementById("more_mhm");
+ 		 var myBorder = document.getElementById("vv2");
 
 		  if (btnText.innerHTML == "+") {
  		   btnText.innerHTML = "-"; 
  		   moreText.style.display =  "inline";
+ 		   myBorder.style.borderColor = "#d081fd";
  		 } else {
  		   btnText.innerHTML = "+";
  		   moreText.style.display =  "none";
+ 		   myBorder.style.borderColor = "#fbf8fd";
  		 }
 		}
 		function expandFuncFreelance() {
  		 var btnText = document.getElementById("freelance_button");
  		 var moreText = document.getElementById("more_freelance");
+ 		 var myBorder = document.getElementById("vv3");
 
 		  if (btnText.innerHTML == "+") {
  		   btnText.innerHTML = "-"; 
  		   moreText.style.display =  "inline";
+ 		   myBorder.style.borderColor = "#d081fd";
  		 } else {
  		   btnText.innerHTML = "+";
  		   moreText.style.display =  "none";
+ 		   myBorder.style.borderColor = "#fbf8fd";
  		 }
 		}
 </script>
