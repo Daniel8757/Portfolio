@@ -8,7 +8,7 @@
 
 
 .title{
-	margin-left: 200px;
+	margin-left: 150px;
 	margin-right: 250px;
 }
 
@@ -19,10 +19,11 @@
 
 .title p{
 	font-size: 25px;
+	color:#ead8f3;
 }
 
 .projects{
-	margin-left: 200px;
+	margin-left: 150px;
 }
 
 .p1{
@@ -51,3 +52,82 @@
 	padding-left: 30px;
 	margin-top: 20px;
 }
+
+/**CYBERPUNK STYLE */
+body{
+	background-color: #0b0231;
+	color: #fbf8fd;
+	font-family: "Lucida Grande";
+}
+
+#backButton{
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+ #backButton{
+   	 background-color: #100349;
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #fbf8fd;
+ 	 color: #fbf8fd;
+ 	 padding: 15px 32px;
+ 	 text-align: center;
+ 	 text-decoration: none;
+ 	 display: inline-block;
+ 	 font-size: 32px;
+ 	 margin: 15px 3px;
+ 	 cursor: pointer;
+ 	 -webkit-transition-duration: 0.4s; 
+ 	 transition-duration: 0.4s;
+ 	 width: 20%;
+	font-size: 70px;
+}
+
+#backButton:hover{
+ 	 box-shadow:  10px 10px #150349;
+ 	 color: white;
+ 	 -webkit-text-stroke-width: 1.5px;
+ 	 -webkit-text-stroke-color: #d081fd;
+ 	 border-color: #edcefd;
+ 	 background-color: #150462;
+}
+
+.projects{
+	text-align: left;
+}
+
+table, th, td{
+	border: 1px solid white;
+}
+
+.date{
+	white-space:nowrap;
+	padding-right: 10px;
+	padding-left: 5px;
+	font-size: 15px;
+}
+
+.desc{
+	width: 350px;
+	padding: 15px;
+}
+
+.name{
+	font-size: 25px;
+	padding-left: 8px;
+}
+
+table{
+	margin-bottom: 100px;
+}
+
+.footer{
+	 	 -webkit-text-stroke-width: 0.8px;
+ 	 -webkit-text-stroke-color: #d081fd;
+ 	 text-align: center;
+}
+
+
+
+

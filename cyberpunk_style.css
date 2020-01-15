@@ -83,6 +83,15 @@
 	margin-bottom: 40px;
 }
 
+#dash4{
+	width: 150px;
+	height: 5px;
+	background-color: #7d12ff;
+	border: none;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
 #third_intro{
 	margin-top: 20px;
 	font-size: 25px;
@@ -169,7 +178,7 @@
 }
 
 .my_projects h3{
-	font-size: 35px;
+	font-size: 45px;
 }
 
 .nameAndPrize h4{
