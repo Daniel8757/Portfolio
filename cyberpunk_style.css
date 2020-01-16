@@ -479,6 +479,7 @@ body{
  
  #pi1{
  	padding-left: 450px;
+ 	padding-top: 30px;
  }
  
 #pi2{
@@ -566,6 +567,30 @@ body{
 .footer{
 	 	 -webkit-text-stroke-width: 0.8px;
  	 -webkit-text-stroke-color: #d081fd;
+}
+
+#deFakePic{
+	width: 400px;
+}
+
+#deFakeButton{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-right: -30px;
+	margin-top: 5px;
+	   background-color: #100349;
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #fbf8fd;
+ 	  -webkit-transition-duration: 0.4s; 
+ 	 transition-duration: 0.4s;
+}
+
+#deFakeButton:hover{
+ 	 color: white;
+ 	 border-color: #edcefd;
+ 	 background-color: #150462;
+ 	 cursor:pointer;
 }
 
 
