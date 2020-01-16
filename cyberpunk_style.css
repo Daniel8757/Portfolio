@@ -586,6 +586,13 @@ body{
  	 transition-duration: 0.4s;
 }
 
+#deFakeButton img{
+	width:120px;
+	padding-top: 11px;
+	padding-right: 7px;
+	
+}
+
 #deFakeButton:hover{
  	 color: white;
  	 border-color: #edcefd;
