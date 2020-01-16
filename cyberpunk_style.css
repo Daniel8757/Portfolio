@@ -211,6 +211,7 @@
 	clear:both;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	margin:auto;
 }
 
 .contact h4{
@@ -519,6 +520,7 @@ body{
  	 cursor: pointer;
  	 -webkit-transition-duration: 0.4s; 
  	 transition-duration: 0.4s;
+ 	 margin-left: 35%;
 }
 
 #all_projects:hover{
@@ -549,7 +551,7 @@ body{
  	 -webkit-transition-duration: 0.4s; 
  	 transition-duration: 0.4s;
  	 width: 60%;
-	margin-left: 10%;
+	margin-left: 21%;
 	font-size: 70px;
 }
 
