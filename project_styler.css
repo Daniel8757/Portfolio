@@ -136,24 +136,8 @@ table{
 	 padding-left: 20px;
 }
 
-.headerDesc .date{
-	font-size: 30px;
-}
-
-.headerDesc .name{
-	font-size: 30px;
-}
-
-.headerDesc .desc{
-	font-size: 30px;
-}
-
-.headerDesc .special{
-	font-size: 30px;
-}
-
 .headerDesc{
-		 -webkit-text-stroke-width: 1px;
+		 -webkit-text-stroke-width: 1.2px;
  	 -webkit-text-stroke-color: #d081fd;
 }
 
@@ -161,9 +145,27 @@ table{
 	margin-right: 15px;
 }
 
-.projects desc{
-	
+.headerDesc .date{
+	font-size: 30px;
+	color: #fbf8fd;
 }
+
+.headerDesc .name{
+	font-size: 30px;
+	color: #fbf8fd;
+}
+
+.headerDesc .desc{
+	font-size: 30px;
+	color: #fbf8fd;
+}
+
+.headerDesc .special{
+	font-size: 30px;
+	color: #fbf8fd;
+}
+
+
 
 
 
