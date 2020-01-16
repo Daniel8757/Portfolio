@@ -478,16 +478,18 @@ body{
  }
  
  #pi1{
- 	padding-left: 450px;
+ 	padding-left: 460px;
  	padding-top: 30px;
  }
  
 #pi2{
  	padding-left: 620px;
+ 	padding-top: 30px;
  }
  
  #pi3{
  	padding-left: 670px;
+ 	padding-top: 30px;
  }
  
  .nameAndPrize{
@@ -584,13 +586,14 @@ body{
  	 -webkit-text-stroke-color: #fbf8fd;
  	  -webkit-transition-duration: 0.4s; 
  	 transition-duration: 0.4s;
+ 	 z-index: 10;
 }
 
 #deFakeButton img{
 	width:120px;
-	padding-top: 11px;
+	padding-top: 4px;
 	padding-right: 7px;
-	
+
 }
 
 #deFakeButton:hover{
@@ -599,6 +602,73 @@ body{
  	 background-color: #150462;
  	 cursor:pointer;
 }
+
+#bigBrother{
+	width: 400px;
+}
+
+#brotherButton{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-right: -30px;
+	margin-top: 5px;
+	   background-color: #100349;
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #fbf8fd;
+ 	  -webkit-transition-duration: 0.4s; 
+ 	 transition-duration: 0.4s;
+ 	 z-index: 10;
+}
+
+#brotherButton img{
+	width:120px;
+	padding-top: 4px;
+	padding-right: 7px;
+
+	
+}
+
+#brotherButton:hover{
+ 	 color: white;
+ 	 border-color: #edcefd;
+ 	 background-color: #150462;
+ 	 cursor:pointer;
+}
+
+#airTouch{
+	width: 400px;
+}
+
+#airButton{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-right: -30px;
+	margin-top: 5px;
+	   background-color: #100349;
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #fbf8fd;
+ 	  -webkit-transition-duration: 0.4s; 
+ 	 transition-duration: 0.4s;
+ 	 z-index: 10;
+}
+
+#airButton img{
+	width:120px;
+	padding-top: 4px;
+	padding-right: 7px;
+
+	
+}
+
+#airButton:hover{
+ 	 color: white;
+ 	 border-color: #edcefd;
+ 	 background-color: #150462;
+ 	 cursor:pointer;
+}
+
 
 
 
