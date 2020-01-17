@@ -44,43 +44,36 @@
 			<img id="my_image" src = "myPic.png" alt="Picture of me">
 		</div>
 	</div>
+	
 	<div class="main_text experience">
 		<h3 id="experienceAnchor">My Experience</h3>
 		<hr align = "left" id = "dash3">
-		<div id = "vv1" class="expMargin">
-			<div id = "v1" class="expand">
-				<h4 id="robotics">First Robotics - Software Engineer</h4>
+		<div id="v1" class="expand">
+			<h4 id="robotics">First Robotics - Software Engineer</h4>
 				<button onclick="expandFuncRobotics()" id="robotics_button">+</button>
-			</div>
-			<div id="vvv1">
 				<ul id="more_robotics">
 					<li><span id="y1">Durham District Champion</span> - March 2019</li>
 					<li>Used C++ and Wpilib to create various modules to successfully let a controller control robots</li>
 					<li>Managed a calculations team of 5 people to solve various dynamic and gemoetric problems regarding the robot</li>
 				</ul>
-			</div>
 		</div>
-		<div id = "vv2" class="expMargin">
-			<div class="expand">
-				<h4 id="mhm">Mental Health Movement - Front End Developer</h4>
+		<div id="v2" class="expand">
+			<h4 id="mhm">Mental Health Movement - Front End Developer</h4>
 				<button onclick="expandFuncMhm()" id="mhm_button">+</button>
-			</div>
-			<ul id="more_mhm">
-				<li>Designed a website using HTML, CSS, and JavaScript to show information for events and opportunities</li>
-				<li>Maintained a server using Node.js to streamline the process of updating events and assigning tasks for members</li>
-				<li>Implemented contact form using Node.js, allowing viewers to contact the organizationa om the website</li>
-			</ul>
+				<ul id="more_mhm">
+					<li>Developed an interface on Xcode using Swift to display data based on user's location</li>
+					<li>Used Amazon's cloud computing platform to create a database, of which an IOS app can store and retrieve data with</li>
+					<li>Created a mutable database and launched a server on Amazon's cloud computing using SQL</li>
+				</ul>
 		</div>
-		<div id = "vv3" class="expMargin">
-			<div id = "v3" class="expand">
-				<h4 id="freelance">Freelance Programming</h4>
+		<div id="v3" class="expand">
+			<h4 id="freelance">Freelance Programming</h4>
 				<button onclick="expandFuncFreelance()" id="freelance_button">+</button>
-			</div>
-			<ul id="more_freelance">
-				<li>Developed an interface on Xcode using Swift to display data based on user's location</li>
-				<li>Used Amazon's cloud computing platform to create a database, of which an IOS app can store and retrieve data with</li>
-				<li>Created a mutable database and launched a server on Amazon's cloud computing using SQL</li>
-			</ul>
+				<ul id="more_freelance">
+					<li>Developed an interface on Xcode using Swift to display data based on user's location</li>
+					<li>Used Amazon's cloud computing platform to create a database, of which an IOS app can store and retrieve data with</li>
+					<li>Created a mutable database and launched a server on Amazon's cloud computing using SQL</li>
+				</ul>
 		</div>
 	</div>
 	<div class="main_text my_projects">
@@ -164,7 +157,7 @@
 
 		  if (btnText.innerHTML == "+") {
  		   btnText.innerHTML = "-"; 
- 		   moreText.style.display =  "inline";
+ 		   moreText.style.display =  "block";
  		   myBorder.style.borderColor = "#d081fd";
  		 } else {
  		   btnText.innerHTML = "+";
@@ -180,7 +173,7 @@
 
 		  if (btnText.innerHTML == "+") {
  		   btnText.innerHTML = "-"; 
- 		   moreText.style.display =  "inline";
+ 		   moreText.style.display =  "block";
  		   myBorder.style.borderColor = "#d081fd";
  		 } else {
  		   btnText.innerHTML = "+";
@@ -195,7 +188,7 @@
 
 		  if (btnText.innerHTML == "+") {
  		   btnText.innerHTML = "-"; 
- 		   moreText.style.display =  "inline";
+ 		   moreText.style.display =  "block";
  		   myBorder.style.borderColor = "#d081fd";
  		 } else {
  		   btnText.innerHTML = "+";
