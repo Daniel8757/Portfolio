@@ -725,6 +725,16 @@ body{
 	color: #ead8f3;
 }
 
+.mySpan{
+	margin-top: 30px;
+	display:block;
+}
+
+.clearThis a{
+	color: #ead8f3;
+	-webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #d081fd;
+}
 
 
 

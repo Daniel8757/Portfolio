@@ -134,6 +134,11 @@ table{
 	 padding-left: 20px;
 }
 
+.special2{
+	padding-left: 10px;
+	font-size: 30px;
+}
+
 .headerDesc{
 		 -webkit-text-stroke-width: 1.2px;
  	 -webkit-text-stroke-color: #d081fd;
@@ -162,6 +167,34 @@ table{
 	font-size: 30px;
 	color: #fbf8fd;
 }
+
+.linkButton{
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	  background-color: #100349;
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #fbf8fd;
+ 	 color: #fbf8fd;
+ 	 display: inline-block;
+ 	 cursor: pointer;
+ 	  -webkit-transition-duration: 0.4s; 
+ 	 transition-duration: 0.4s;
+}
+
+.linkButton:hover{
+ 	 color: white;
+ 	 -webkit-text-stroke-width: 1.5px;
+ 	 -webkit-text-stroke-color: #d081fd;
+ 	 border-color: #edcefd;
+ 	 background-color: #150462;
+}
+
+.linkButton img{
+	padding-top: 2px;
+
+}
+
 
 
 
