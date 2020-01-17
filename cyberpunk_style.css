@@ -281,6 +281,19 @@ body{
 
 #a123{
 	margin-bottom: 2.7%;
+	color: #ead8f3;
+}
+
+#a1234{
+	color: #ead8f3;
+}
+
+.about_text li{
+	color: #ead8f3;
+}
+
+.expand li{
+	color: #ead8f3;
 }
 
 .lightStroke{
@@ -702,6 +715,14 @@ body{
 	font-size: 100px;
 	color: #fbf8fd;
 	margin-bottom: 5%;
+}
+
+.clearThis{
+	color: #ead8f3;
+}
+
+.contact p{
+	color: #ead8f3;
 }
 
 
