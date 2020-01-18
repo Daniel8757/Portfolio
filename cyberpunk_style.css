@@ -87,8 +87,8 @@
 	height: 5px;
 	background-color: #7d12ff;
 	border: none;
-	margin-top: -1.35%;
-	margin-bottom: 1.35%;
+	margin-top: -3%;
+	margin-bottom: 2%;
 }
 
 #third_intro{
@@ -110,8 +110,7 @@
 }
 
 #projectAnchor{
-	margin-top: -5.4%;
-	padding-top: 5.4%;
+
 }
 
 #contactAnchor{
@@ -735,6 +734,69 @@ body{
 	-webkit-text-stroke-width: 1px;
  	 -webkit-text-stroke-color: #d081fd;
 }
+
+#name{
+	-webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: #d081fd;
+ 	 font-weight: bold;
+ 	 font-size: 30px;
+}
+
+#myGit{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	 background-color: #0b0231;
+ 	 border: none;
+ 	 x
+}
+
+#myGit img{
+	width:30px;
+}
+
+#myGit:hover{
+ 	 cursor:pointer;
+}
+
+#myLink{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	 background-color: #0b0231;
+ 	 border: none;
+}
+
+#myLink img{
+	width:30px;
+}
+
+#myLink:hover{
+ 	 cursor:pointer;
+}
+
+#myDev{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	 background-color: #0b0231;
+ 	 border: none;
+}
+
+#myDev img{
+	width:30px;
+}
+
+#myDev:hover{
+ 	 cursor:pointer;
+}
+
+.expand li{
+	font-size: 20px;
+}
+
+
+
 
 
 
