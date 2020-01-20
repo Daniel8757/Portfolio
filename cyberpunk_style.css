@@ -195,7 +195,7 @@
 
 .myProject li{
 	display:inline;
-	float: left;
+	float: right;
 	padding: 0.675%; 
 }
 
@@ -482,8 +482,7 @@ body{
   .projectModule ul{
   	position: relative;
   	clear: both;
- 
- }
+  }
  
  .projectModule{
  	padding-bottom: 100px;	
@@ -795,11 +794,19 @@ body{
 	font-size: 20px;
 }
 
+.projectModule ul{
+	float: right;
+	padding-right: -20%;
+}
 
+.projectModule ul{
+	width: 60%;
+	overflow: hidden;
+}
 
-
-
-
-
- /* TODO: Make navigation bar fixed to top */
+@media screen and (max-width: 1300px){
+	.projectModule ul{
+		width: 100%;	
+	}
+}
 
